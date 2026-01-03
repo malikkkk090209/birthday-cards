@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Canvas Confetti -->
+<canvas id="confetti"></canvas>
+
+<!-- Hearts Container -->
+<div id="hearts"></div>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+  <!-- Ganti src dengan file musikmu -->
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="card">
+  <h1>🎉 Happy Birthday 🎂</h1>
+  <h2 id="name">💗 Kamu 💗</h2>
+  <p class="date" id="date"></p>
+
+  <p class="intro">
+    Hari ini bukan hari biasa, ini hari lahirnya orang spesial 🤍
+  </p>
+
+  <button id="openBtn">🎁 Buka Ucapannya</button>
+
+  <p id="wish" class="wish hidden"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
